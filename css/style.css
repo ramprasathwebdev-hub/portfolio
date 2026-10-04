@@ -492,11 +492,14 @@ a:hover .arrow, .link-arrow:hover .arrow { transform: translateX(4px); }
   gap: 24px;
 }
 .project-card {
+  display: block;
   background: var(--white);
   border-radius: var(--radius);
   overflow: hidden;
   box-shadow: var(--shadow);
   transition: transform .35s ease, box-shadow .35s ease;
+  color: inherit;
+  text-decoration: none;
 }
 .project-card:hover { transform: translateY(-8px); box-shadow: 0 30px 60px -25px rgba(13,20,36,.3); }
 
